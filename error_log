@@ -1,0 +1,388 @@
+[31-Jan-2024 06:29:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ngurusin.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ngurusin.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ngurusin.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ngurusin.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ngurusin.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[01-Feb-2024 06:14:40 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[01-Feb-2024 08:23:51 UTC] Cron reschedule event error for hook: wpseo-reindex, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"daily","args":[],"interval":86400}
+[02-Feb-2024 05:32:06 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[13-Feb-2024 13:06:11 UTC] Cron reschedule event error for hook: wp_privacy_delete_old_export_files, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"hourly","args":[],"interval":3600}
+[14-Feb-2024 15:30:05 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 211
+[14-Feb-2024 15:30:25 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 449
+[14-Feb-2024 15:30:47 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 730
+[03-Mar-2024 08:42:55 UTC] Cron reschedule event error for hook: elementor_1_elementor_updater_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"elementor_1_elementor_updater_cron_interval","args":[],"interval":300}
+[08-Mar-2024 15:15:58 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 211
+[08-Mar-2024 15:16:00 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 449
+[08-Mar-2024 15:16:03 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 730
+[09-Mar-2024 03:46:59 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 211
+[09-Mar-2024 03:47:02 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 449
+[09-Mar-2024 03:47:04 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 730
+[12-Mar-2024 15:25:55 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 730
+[19-Mar-2024 09:45:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php:874
+Stack trace:
+#0 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1961): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1682): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1518): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(2041): wp_mail()
+#5 /home/ujianori/ngurusin.com/wp-includes/comment.php(2346): wp_notify_moderator()
+#6 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(326): wp_new_comment_notify_moderator()
+#7 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#8 /home/ujianori/ngurusin.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#9 /home/ujianori/ngurusin.com/wp-includes/comment.php(2320): do_action()
+#10 /home/ujianori/ngurusin.com/wp-includes/comment.php(3671): wp_new_comment()
+#11 /home/ujianori/ngurusin.com/wp-comments-post.php(25): wp_handle_comment_submission()
+#12 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php on line 874
+[03-Apr-2024 04:40:03 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ngurusin.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ngurusin.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ngurusin.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ngurusin.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ngurusin.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[05-Apr-2024 21:51:35 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/ujianori/ngurusin.com/wp-settings.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-settings.php on line 33
+[09-Apr-2024 23:09:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ngurusin.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ngurusin.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ngurusin.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ngurusin.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ngurusin.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:12 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:21:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:21:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:05 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 15:28:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:33 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 16:41:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:06 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 17:11:07 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:14:00 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:29 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 19:16:30 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:31 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:32 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:34 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:35 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:36 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[24-Apr-2024 22:25:37 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:03 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 01:57:04 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:38 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:39 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 03:09:40 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 03:09:40 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:13 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 04:54:14 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:10 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 695
+[25-Apr-2024 17:33:11 UTC] PHP Warning:  Undefined array key "icon" in /home/ujianori/ngurusin.com/wp-content/plugins/elementor/includes/widgets/icon-box.php on line 708
+[28-Apr-2024 19:43:33 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9813}
+[28-Apr-2024 19:43:35 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9815}
+[28-Apr-2024 19:43:43 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9823}
+[28-Apr-2024 19:43:46 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9826}
+[28-Apr-2024 21:49:02 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-17342}
+[28-Apr-2024 21:49:08 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-17348}
+[28-Apr-2024 23:45:43 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24343}
+[28-Apr-2024 23:45:44 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24344}
+[28-Apr-2024 23:45:44 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24344}
+[28-Apr-2024 23:45:45 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24345}
+[28-Apr-2024 23:45:46 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24346}
+[28-Apr-2024 23:45:47 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24347}
+[28-Apr-2024 23:45:47 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24347}
+[28-Apr-2024 23:45:48 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24348}
+[28-Apr-2024 23:45:49 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24349}
+[28-Apr-2024 23:45:49 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24349}
+[28-Apr-2024 23:45:50 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24350}
+[28-Apr-2024 23:45:50 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24350}
+[28-Apr-2024 23:45:51 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24351}
+[28-Apr-2024 23:45:52 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24352}
+[28-Apr-2024 23:45:52 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24352}
+[28-Apr-2024 23:45:53 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24353}
+[28-Apr-2024 23:45:53 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24353}
+[28-Apr-2024 23:45:54 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24354}
+[28-Apr-2024 23:45:54 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24354}
+[28-Apr-2024 23:45:55 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24355}
+[28-Apr-2024 23:45:55 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24355}
+[28-Apr-2024 23:45:56 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24356}
+[28-Apr-2024 23:45:57 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24357}
+[28-Apr-2024 23:45:58 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24358}
+[28-Apr-2024 23:45:59 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24359}
+[28-Apr-2024 23:46:00 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24360}
+[28-Apr-2024 23:46:01 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24361}
+[28-Apr-2024 23:46:02 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24362}
+[28-Apr-2024 23:46:04 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24364}
+[28-Apr-2024 23:46:06 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24366}
+[28-Apr-2024 23:46:08 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24368}
+[28-Apr-2024 23:46:11 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24371}
+[28-Apr-2024 23:46:12 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24372}
+[28-Apr-2024 23:46:13 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24373}
+[28-Apr-2024 23:46:14 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24374}
+[28-Apr-2024 23:46:15 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24375}
+[28-Apr-2024 23:46:16 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24376}
+[28-Apr-2024 23:46:17 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24377}
+[28-Apr-2024 23:46:18 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24378}
+[28-Apr-2024 23:46:19 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24379}
+[28-Apr-2024 23:46:20 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24380}
+[28-Apr-2024 23:46:21 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24381}
+[28-Apr-2024 23:46:22 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24382}
+[28-Apr-2024 23:46:23 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24383}
+[28-Apr-2024 23:46:24 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24384}
+[28-Apr-2024 23:46:25 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24385}
+[28-Apr-2024 23:46:26 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24386}
+[28-Apr-2024 23:46:27 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24387}
+[28-Apr-2024 23:46:28 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24388}
+[28-Apr-2024 23:46:29 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24389}
+[28-Apr-2024 23:46:29 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24389}
+[28-Apr-2024 23:46:30 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24390}
+[28-Apr-2024 23:46:31 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24391}
+[28-Apr-2024 23:46:31 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24391}
+[28-Apr-2024 23:46:32 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24392}
+[28-Apr-2024 23:46:34 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24394}
+[28-Apr-2024 23:46:35 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24395}
+[28-Apr-2024 23:46:36 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24396}
+[28-Apr-2024 23:46:37 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24397}
+[28-Apr-2024 23:46:38 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24398}
+[28-Apr-2024 23:46:38 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24398}
+[28-Apr-2024 23:46:39 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24399}
+[28-Apr-2024 23:46:40 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24400}
+[28-Apr-2024 23:46:41 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24401}
+[28-Apr-2024 23:46:42 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24402}
+[28-Apr-2024 23:46:43 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24403}
+[28-Apr-2024 23:46:44 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24404}
+[28-Apr-2024 23:46:45 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24405}
+[28-Apr-2024 23:46:46 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24406}
+[28-Apr-2024 23:46:48 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24408}
+[28-Apr-2024 23:46:49 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24409}
+[28-Apr-2024 23:46:51 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24411}
+[28-Apr-2024 23:46:52 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24412}
+[28-Apr-2024 23:46:53 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24413}
+[28-Apr-2024 23:46:54 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24414}
+[28-Apr-2024 23:46:55 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-24415}
+[05-May-2024 19:09:59 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-7799}
+[05-May-2024 19:10:02 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-7802}
+[07-May-2024 16:30:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function PHPMailer\PHPMailer\mail() in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php:881
+Stack trace:
+#0 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1972): PHPMailer\PHPMailer\PHPMailer->mailPassthru()
+#1 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1693): PHPMailer\PHPMailer\PHPMailer->mailSend()
+#2 /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php(1525): PHPMailer\PHPMailer\PHPMailer->postSend()
+#3 /home/ujianori/ngurusin.com/wp-includes/pluggable.php(546): PHPMailer\PHPMailer\PHPMailer->send()
+#4 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(976): wp_mail()
+#5 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(639): WP_Automatic_Updater->send_email()
+#6 /home/ujianori/ngurusin.com/wp-admin/includes/class-wp-automatic-updater.php(606): WP_Automatic_Updater->after_core_update()
+#7 /home/ujianori/ngurusin.com/wp-includes/update.php(852): WP_Automatic_Updater->run()
+#8 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_maybe_auto_update()
+#9 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#10 /home/ujianori/ngurusin.com/wp-includes/plugin.php(517): WP_Hook->do_action()
+#11 /home/ujianori/ngurusin.com/wp-includes/update.php(292): do_action()
+#12 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(324): wp_version_check()
+#13 /home/ujianori/ngurusin.com/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#14 /home/ujianori/ngurusin.com/wp-includes/plugin.php(565): WP_Hook->do_action()
+#15 /home/ujianori/ngurusin.com/wp-cron.php(191): do_action_ref_array()
+#16 {main}
+  thrown in /home/ujianori/ngurusin.com/wp-includes/PHPMailer/PHPMailer.php on line 881
+[11-May-2024 14:43:48 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 211
+[12-May-2024 19:40:04 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9604}
+[12-May-2024 19:40:10 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9610}
+[12-May-2024 19:40:17 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9617}
+[12-May-2024 19:40:32 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9632}
+[12-May-2024 19:40:38 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-9638}
+[12-May-2024 23:36:29 UTC] Cron reschedule event error for hook: wpforms_weekly_entries_count_cron, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"wpforms_weekly_entries_count","args":[],"interval":-23789}
+[14-May-2024 04:41:08 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 449
+[14-May-2024 04:41:19 UTC] PHP Warning:  An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="https://wordpress.org/support/forums/">support forums</a>. (WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.) in /home/ujianori/ngurusin.com/wp-includes/update.php on line 730
